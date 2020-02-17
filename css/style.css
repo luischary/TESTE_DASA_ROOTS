@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700,800,900|Roboto:400,700&display=swap');
 :root {
     --cor-titulos-cabecalho: #554d56;
     --cor-titulo-sessao: #979197;
     --cor-info-paleta-cores: #979197;
+    --cor-titulo-text-style: #554d56;
+    --cor-subtitulo-text-style: #554d56;
+    --cor-detalhe-text-style: #979197;
     --font-family-titulos: Roboto Slab, Roboto, Helvetica, sans-serif;
 }
 
@@ -20,7 +23,7 @@ body {
     color: var(--cor-titulo-sessao);
     font-family: var(--font-family-titulos);
     font-size: 1.1rem;
-    font-weight: 900;
+    font-weight: 700;
     margin: 3rem 0;
 }
 
@@ -68,7 +71,7 @@ body {
 /* --------------------------------------------- COLOR PALETTE ---------------------------------------------*/
 
 .paleta-cores {
-    padding-top: 3rem;
+    padding: 3rem 0;
 }
 
 .elementos-paleta-cores {
@@ -176,4 +179,23 @@ body {
 .color-white {
     background-color: #ffffff;
     border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+
+/* ----------------------------------- TEXT STYLE CATALOG --------------------------------------- */
+
+.text-style-titulo {
+    font-size: 2.1rem;
+    font-weight: 900;
+    color: var(--cor-titulo-text-style);
+}
+
+.text-style-subtitulo {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: var(--cor-subtitulo-text-style);
+}
+
+.text-style-detalhe {
+    color: var(--cor-detalhe-text-style);
 }
